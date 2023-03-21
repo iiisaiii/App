@@ -52,7 +52,7 @@ Builder.load_string(
                 text: "Cinsiyet"
                 font_size: 20
                 size_hint_x: None
-                size_hint: 0.4, 0.8
+                size_hint: 0.4, 0.4
                 values: ["Erkek", "Kadın"]
                 pos_hint: {"center_x": 0.5, "top": 0}
                 on_text: root.spinner_2(self.text)
@@ -77,7 +77,7 @@ Builder.load_string(
                 text: "Medeni Hal"
                 font_size: 20
                 size_hint_x: None
-                size_hint: 0.4, 0.8
+                size_hint: 0.4, 0.4
                 values : ["Evli" , "Bekar"]
                 pos_hint: {"center_x": 0.5, "top": 0}
                 on_text: root.spinner_4(self.text)
